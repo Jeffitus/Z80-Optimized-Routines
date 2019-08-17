@@ -1,0 +1,12 @@
+Filled Circle
+By calc84maniac
+Inputs:
+X=x-coordinate of center
+Y=y-coordinate of center
+R=radius
+
+:For(F,0,R,[deltax]
+:sqrt(R^2-F^2
+:Line(X+F,Y+Ans,X+F,Y-Ans
+:Line(X-F,Y+Ans,X-F,Y-Ans
+:End

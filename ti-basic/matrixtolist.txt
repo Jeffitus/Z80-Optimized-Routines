@@ -1,0 +1,19 @@
+Matrix to list
+By Lafferjm
+Input: [A]
+Output: |LSAVE
+
+:1→dim(L2
+:dim([A]→L1
+:L1(1→A
+:L1(2→B
+:For(C,1,A
+:For(D,1,B
+:[A](C,D→L2(dim(L2)+1
+:End
+:End
+:For(A,2,dim(L2)
+:L2(A)→∟SAVE(A-1
+:End
+:DelVar L1DelVar L2DelVar [A]DelVar BDelVar CDelVar ADelVar DOutput(1,1,"
+:0

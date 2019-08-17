@@ -1,0 +1,18 @@
+Graph Mode
+By calc84maniac
+Inputs: none
+Output: Ans=
+0:FUNC
+1:PAR 
+2:POL 
+3:SEQ 
+Destroys:GDBn
+
+:StoreGDB n
+:1->Tmin
+:1->[thetamin]
+:2->nMin
+:ZStandard
+:not(Tmin)+2not([thetamin])+3(nMin=1
+:RecallGDB n
+:Delvar GDBn

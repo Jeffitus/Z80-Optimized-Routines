@@ -1,0 +1,13 @@
+Formatted Text on a Graph Screen
+By B-flat, KermMartian, and calc84maniac
+Input: Str1
+Clears graph screen
+Input text scrolls on the bottom of the screen
+
+:ClrDraw
+:length(Str1->A
+:For(J,1,1+iPart(A/23
+:For(I,1,23
+:If 23J-24+I<A:Text(7J-7,4I-4,sub(Str1,23J-23+I,1
+:End
+:End

@@ -1,0 +1,9 @@
+Most Efficient getKey
+By Harq
+Input: none
+Output: Keycode in K
+
+Repeat Ans
+getKey
+End
+Ans->K

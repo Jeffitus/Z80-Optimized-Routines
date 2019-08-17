@@ -1,0 +1,24 @@
+List to Matrix
+By Lafferjm
+Inputs:
+List to be converted: |LSAVE
+Number of rows in desired matrix: F
+Output: [A]
+
+:dim(∟SAVE)/F→G
+:{F,G→dim([A]
+:1→A
+:1→B
+:G→C
+:0→D
+:Repeat A=F+1
+:For(E,1,G
+:D+1→D
+:∟SAVE(D→[A](A,E
+:End
+:A+1→A
+:C+1→B
+:C+G→C
+:End
+:DelVar ADelVar BDelVar CDelVar DDelVar EDelVar FDelVar G
+

@@ -1,0 +1,7 @@
+Modulo Division
+By Tari, Something1990, and calc84maniac
+Input:
+A=Dividend
+B=Divisor
+
+:Round(BfPart(A/B),0

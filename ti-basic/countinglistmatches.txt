@@ -1,0 +1,9 @@
+Counting List Matches
+By calc84maniac
+Returns how many times A appears in LIST
+
+:sum(LIST=A
+
+Returns how many corresponding elements of LIST1 and LIST2 are equal (dim(LIST1) must equal dim(LIST2)
+
+:sum(LIST1=LIST2

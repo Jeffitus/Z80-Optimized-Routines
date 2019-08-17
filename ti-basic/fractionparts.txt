@@ -1,0 +1,12 @@
+Fraction Parts
+By calc84maniac
+Input:
+Ans=a number
+Output:
+Ans={numerator,denominator}
+
+:{Ans,1,fpart(abs(Ans
+:While e-9<Ans(3
+:{Ans(1),Ans(3),Ans(3)fpart(Ans(2)/Ans(3
+:End
+:round({Ans(1),1}/Ans(2),0

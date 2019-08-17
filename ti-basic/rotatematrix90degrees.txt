@@ -1,0 +1,6 @@
+Rotate a 3x3 matrix 90°
+By HaveACalc
+Input: Ans 
+Output: Ans 
+
+:rowSwap(Ans<superscript T thing>,1,3

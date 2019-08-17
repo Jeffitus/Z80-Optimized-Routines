@@ -1,0 +1,16 @@
+Mode of List
+By calc84maniac
+Inputs: LIST
+Outputs: D=mode(LIST 
+E=1 if no unique mode, otherwise E=0 
+
+:0->B
+:For(A,1,dim(LIST
+:sum(LIST=LIST(A->C
+:If C=B and D/=LIST(A
+:1->E
+:If C>B
+:LIST(A->D
+:Delvar EC->B
+:End
+:End

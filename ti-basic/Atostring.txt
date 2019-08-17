@@ -1,0 +1,12 @@
+Convert A to a String
+By Weregoose
+Input: A
+Output: Str1
+
+:{A,A->L2
+:{0,1->L1
+:LinReg(a+bx) Y1
+:Equ>String(Y1,Str1
+:sub(Str1,1,length(Str1)-3->Str1
+
+For CE OS 5.2+ use toString()

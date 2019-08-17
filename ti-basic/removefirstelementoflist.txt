@@ -1,0 +1,6 @@
+Chop off first element of list
+By calc84maniac
+Input: Ans
+Output: Ans
+
+:deltaList(cumSum(Ans

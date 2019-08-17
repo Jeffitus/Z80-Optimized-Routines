@@ -1,0 +1,9 @@
+List to Text
+By Lafferjm
+Input: L1
+Displays text data in L1 on the screen
+
+:"ABCDEFGHIJKLMNOPQRSTUVWXYZ? .→Str1
+:For(A,1,dim(L1
+:Output(1,A,sub(Str1,L1(A),1
+:End

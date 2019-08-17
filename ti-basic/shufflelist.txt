@@ -1,0 +1,9 @@
+Shuffle Elements of List
+By calc84maniac
+Shuffles L1
+Destroys L2
+
+:rand(dim(L1->L2
+:SortA(L2,L1
+
+(replace dim(L1) with number if known)
