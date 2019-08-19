@@ -1,7 +1,0 @@
-Find where a number occurs in a list 
-By Ed H
-Inputs: 
-A = A number 
-Output: the position of the last occurrence of A in L1 
-
-:max(seq(X(A=L1(X)),X,1,dim(L1

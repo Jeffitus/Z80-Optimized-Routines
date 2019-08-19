@@ -1,0 +1,15 @@
+Reverse a list in Ans
+By LogicalJoe
+Inputs: Ans = A list 
+Output: Ans = The reversed list 
+Destroys: Ans 
+
+:seq(Ans(A),A,dim(Ans),1,-1
+
+Reverse L1: (By LogicalJoe)
+Inputs: L1 = A list 
+Output: L1 = The reversed list 
+Destroys: L1, |LZ 
+
+cumSum(not(0L1->Z
+SortD(|LZ,L1

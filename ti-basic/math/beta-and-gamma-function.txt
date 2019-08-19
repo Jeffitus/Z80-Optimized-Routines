@@ -13,3 +13,12 @@ By mr womp womp
 :augment(L2,{Ans→L2
 :End
 :round(Ans(4)Ans(5)/Ans(6),8
+
+Gamma function: (By mr womp womp)
+
+:A→Z
+:If 0>real(A
+:1-Z→Z
+:e^((Z-.5)ln(Z+8.5)-Z-8.5+ln(√(2π)(1+sum({5716.4001882743,-14815.304267684,14291.492776575,-6348.1602176415,1301.6082860583,-108.17670535144,2.6056965056118,-0.0074234525,5.384136×10^-8,-4.02353×10^-9}/(Z-1+cumSum(binomcdf(9,0
+:If 0>real(A
+:2πi/Ans/(2isin(πA

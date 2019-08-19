@@ -1,0 +1,8 @@
+Expanding Quadratics 
+By Weregoose
+Inputs: Y1 = Expression in X with quadratic behavior 
+Outputs: L1 = Coefficients of the standard form of Y1 (descending) 
+
+:i→X 
+:Y1(0 
+:real({Ans-Y1,imag(Y1),Ans→L1 

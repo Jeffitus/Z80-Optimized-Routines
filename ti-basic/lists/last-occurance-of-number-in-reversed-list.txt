@@ -1,0 +1,12 @@
+Find the last occurrence of a number in a reversed list
+By LogicalJoe
+Note: Only works if 1=sum(A=L1 
+Inputs: 
+A = A number 
+L1 = A list 
+Output: Ans = Location 
+Destroys: Ans 
+
+:sum(cumSum(A=L1
+
+For example, A=3 & L1={1,2,3,4 will output 2. 

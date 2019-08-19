@@ -1,0 +1,9 @@
+Number of times A evenly divides B 
+(The Greatest n such that A^n evenly divides B)
+By LogicalJoe
+Inputs: A, B 
+Output: Ans=n 
+Destroys: Ans 
+
+:gcd(B,A^int(round(log(B,A
+:log(Ans,A

@@ -1,0 +1,8 @@
+First A natural numbers in a list
+By LogicalJoe
+Inputs: A = A number 
+Output: Ans = list of A natural numbers 
+Destroys: Ans 
+
+Code:
+:cumSum(not(0rand(A

@@ -1,0 +1,20 @@
+String Search, Replace, and Delete
+By Michael2_3B
+Inputs:
+Str1= Original string
+Str2= String to search for
+Str3= Replace all occurances of Str2 in Str1 with this, for deletion make the length of Str3 0
+Output: Str1 is the resulting string
+
+:length(Str2→J
+:1→I
+:While inString(Str1,Str2,I
+:inString(Str1,Str2,I→I
+:Str3
+:If ln(I
+:sub(Str1,1,I-1)+Ans
+:If I+J≤length(Str1
+:Ans+sub(Str1,I+J,1-I-J+length(Str1
+:Ans→Str1
+:I+length(Str3→I
+:End

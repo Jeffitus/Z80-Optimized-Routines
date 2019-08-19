@@ -1,0 +1,10 @@
+Find the last occurrence of a number in a list
+By PT_
+Inputs: 
+A = A number 
+L1 = A list 
+Output: Ans = the position of the last occurrence of A in L1 
+Destroys: Ans 
+
+:A=L1
+:max(AnscumSum(not(0Ans

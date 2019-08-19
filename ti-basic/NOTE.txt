@@ -1,4 +1,4 @@
 If you are looking for a conversion routine, go to the folder for the starting data type.
 For example, if you want list to matrix, look under /list.
 
-If you think anything related to folder structure should be changed, feel free to tell me (Jeffitus).
+Feel free to tell me if a routine doesn't work, or if you think the location of a routine should be changed.

@@ -1,0 +1,5 @@
+min(, without zeroes 
+By commandblockguy
+Returns the smallest number in a list, besides zeroes. 
+
+min(Ans+not(Ans)max(Ans
