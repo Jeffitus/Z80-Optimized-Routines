@@ -1,0 +1,13 @@
+Mouse Routine
+By SirCmpwn and KermMartian
+
+:31->A:45->B:Repeat K=21 or K=31
+:ClrDraw
+:RecallPic 1
+:getKey->K
+:INSERT YOUR CODE HERE
+:StorePic 1
+:Insert your code to draw a mouse sprite here at (A,B)=(row,col)
+:A-(K=24)+(K=26->A
+:B-(K=34)+(K=25->B
+:End

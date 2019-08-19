@@ -1,0 +1,19 @@
+Decimal Number to Binary List
+By mr womp womp
+Input: N= decimal number
+Output: Ans= binary list
+
+:2fPart(.5int(N2^seq(X,X,~int(logBASE(N,2)),0
+
+Alternatively (older calcs):
+
+2fPart(.5int(N2^seq(X,X,~int(log(N)/log(2)),0
+
+For both input and output as integers: (By lirtosiat)
+
+:int(2fPart(N/2^cumSum(binomcdf(44,0
+:.1sum(Ans10^(cumSum(1 or Ans
+
+For both input and output as integers (8-bit): (By PT_)
+
+:2fPart(.5int(N2^seq(X,X,~7,0

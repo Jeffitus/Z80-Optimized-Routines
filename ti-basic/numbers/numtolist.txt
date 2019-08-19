@@ -1,0 +1,6 @@
+Number to List
+By lirtosiat
+Input: Ans= number
+Output: Ans= list
+
+:int(10fPart(Ans10^(seq(A,A,~int(log(abs(Ans)))-1,~1

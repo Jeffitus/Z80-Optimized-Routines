@@ -1,0 +1,47 @@
+Text Wrapper/Letter Wrapper on a graphscreen 
+By Electromagnet8
+Input: Ans or Str1=string to be displayed on the graphscreen with ° as new line characters 
+Destroyed: Graphscreen and two variables 
+This takes a string and displays it on the graphscreen while detecting when a new line is needed. The text can be defined within or outside the routine. 
+
+Monochrome calculators (e.g. TI-83(+/SE) and TI-84(+/SE)): 
+
+"INSERT TEXT HERE.^^oTHE DEGREE SYMBOL INDICATES A NEW LINE^^oTHIS SENTENCE WILL AUTOMATICALLY START A NEW LINE BECAUSE IT IS LONG.^^oTHIS STRING MUST END WITH A DEGREE SYMBOL^^o
+Ans->Str1
+ClrDraw
+1->X:0->A
+While X<length(Str1) and A<=54
+inString(Str1,"^^o",X)-X->B
+min({23,Ans
+Text(A,0,sub(Str1,X,Ans
+X+Ans+(B<=Ans->X:A+6->A
+End
+
+
+TI-84+C(S)E: 
+
+"INSERT TEXT HERE.^^oTHE DEGREE SYMBOL INDICATES A NEW LINE^^oTHIS SENTENCE WILL AUTOMATICALLY START A NEW LINE BECAUSE IT IS LONG.^^oTHIS STRING MUST END WITH A DEGREE SYMBOL^^o
+Ans->Str1
+ClrDraw
+1->X:0->A
+While X<length(Str1) and A<=228
+inString(Str1,"^^o",X)-X->B
+min({30,Ans
+Text(A,0,sub(Str1,X,Ans
+X+Ans+(B<=Ans->X:A+12->A
+End
+
+
+Cross compatibility (all TI-8x calculators): 
+
+Xmin+|E2DeltaX<Xmax->|N
+"INSERT TEXT HERE.^^oTHE DEGREE SYMBOL INDICATES A NEW LINE^^oTHIS SENTENCE WILL AUTOMATICALLY START A NEW LINE BECAUSE IT IS LONG.^^oTHIS STRING MUST END WITH A DEGREE SYMBOL^^o
+Ans->Str1
+ClrDraw
+1->X:0->A
+While X<length(Str1) and A<=54(|N+1
+inString(Str1,"^^o",X)-X->B
+min({23+7|N,Ans
+Text(A,0,sub(Str1,X,Ans
+X+Ans+(B<=Ans->X:A+6(|N+1->A
+End

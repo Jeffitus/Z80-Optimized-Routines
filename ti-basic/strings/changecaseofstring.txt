@@ -1,16 +1,40 @@
 Change Case of a String 
-By RthProg and Ed H
+By lirtosiat
 Inputs: 
-A = (1) Change to uppercase 
+A = 1 Change to uppercase, 0 for lowercase
 Str1 = String to convert 
-Outputs: 
-Str1 = Converted string 
+Outputs: Converted string 
 
-:not(A)->A
-:length(Str1)->B
-:"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"->Str2
-:For(N,1,B
-:inString(sub(Str2,26A + 1, 26),sub(Str1,N,1)
-:Str1 + sub(sub(Str1,N,1) +sub(sub(Str2,26,26)+sub(Str2,1,26),26A+1,26),Ans+1,1)-->Str1
+Result in Ans:
+
+:"ABCDEFGHIJKLMNOPQRSTUVWXYZzyxwvutsrqponmlkjihgfedcba->Str2 
+:"?"
+:For(N,1,length(Str1
+:If A=int((inString(Str2,sub(Str1,N,1))-1)/26
+:Then
+:Ans+sub(Str2,53-inString(Str2,sub(Str1,N,1)),1
+:Else
+:Ans+sub(Str1,N,1
 :End
-:sub(Str1,B+1,B)-->Str1
+:End
+:sub(Ans,2,length(Ans)-1
+
+Result in Str0 (faster):
+
+:"ABCDEFGHIJKLMNOPQRSTUVWXYZzyxwvutsrqponmlkjihgfedcba"->Str2  
+:For(N,1,length(Str1
+:sub(Str1,N,1
+:If A=int((inString(Str2,Ans)-1)/26
+:sub(Str2,53-inString(Str2,Ans),1
+:If N=1
+:Str0+Ans
+:Ans->Str0
+:End
+
+C(S)E only (remainder()) (By PT_)
+
+"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz->Str2
+" 
+For(B,1,length(Str1Ans+sub(Str2,1+26A+remainder(inString(Str2,sub(Str1,B,1))-1,26),1
+End
+sub(Ans,2,length(Ans)-1->Str1

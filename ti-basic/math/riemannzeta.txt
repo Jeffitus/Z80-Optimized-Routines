@@ -1,0 +1,10 @@
+Riemann Zeta Function 
+By trichoplax
+Inputs:
+Z= argument
+N= accuracy parameter
+
+cosh(Nln(3+sqrt(8->C
+seq(K,K,1,N->L1
+(-1)^Ans*(C-cumSum(N4^Ans/(N+Ans)(N+Ans) nCr (2Ans
+C^-1/(2^(1-Z)-1)sum(Ans/L1^Z

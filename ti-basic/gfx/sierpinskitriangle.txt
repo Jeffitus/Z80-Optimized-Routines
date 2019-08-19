@@ -1,0 +1,16 @@
+Sierpinski Triangle 
+By Weregoose
+Inputs: None 
+Outputs: IFS-generated Sierpinski sieve fractal 
+
+:0
+:Repeat 0
+:.5(Ans+e^(.5iπint(3rand
+:Pt-On(real(Ans),imag(Ans
+:End
+
+Other functions to try: 
+
+:-.5(Ans+e^(.5iπint(3rand //Xmin=-1, Xmax=1, Ymin=-2/3, Ymax=1/3
+:.5(Ansi+e^(.5iπint(3rand //Xmin=-1, Xmax=3/4, Ymin=-1/2, Ymax=√(3)/2
+:.5(1+Anse^(.5iπint(3rand //Xmin=0, Xmax=1, Ymin=-1/4, Ymax=1/2

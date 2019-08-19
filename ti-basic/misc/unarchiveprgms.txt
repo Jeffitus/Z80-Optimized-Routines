@@ -1,0 +1,11 @@
+Archive and Unarchive Programs
+By lirtosiat
+(In testing, this worked on an 84+SE, but not a CE)
+
+PROGRAM:AAAAAAAA
+:{0->u(nMin)
+:"..":If π=X:Return:For(X,π,0:End:prgmAAAAAAAA
+:DelVar X
+:UnArchive prgmC
+:prgmC
+:Archive prgmC

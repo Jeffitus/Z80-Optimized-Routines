@@ -1,0 +1,17 @@
+Compute Width of Non-Negative Integer 
+By KermMartian
+Input: X= Non-negative integer
+Output: Ans= width
+
+Homescreen: 
+
+1+max(0,int(log(X+.1
+
+TI-83+/TI-84+ graphscreen: 
+
+4+4max(0,int(log(X+.1
+
+
+TI-84 Plus C(S)E graphscreen: 
+
+8+8max(0,int(log(X+.1

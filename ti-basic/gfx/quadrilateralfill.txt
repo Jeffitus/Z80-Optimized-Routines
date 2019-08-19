@@ -1,0 +1,11 @@
+Quadrilateral Rasterizer/Fill
+By KermMartian and Weregoose
+Inputs:
+L1(1-4)= X coordinates
+L2(1-4)= Y coordinates
+Points should be in order: lower-left, lower-right, upper-left, upper-right
+
+:For(A,0,1,1/max(abs(ΔList({1,-1,1}ΔList(L2
+:1-A
+:Line(AnsL1(1)+AL1(3),AnsL2(1)+AL2(3),AnsL1(2)+AL1(4),AnsL2(2)+AL2(4
+:End

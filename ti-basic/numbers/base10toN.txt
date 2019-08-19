@@ -9,3 +9,7 @@ Outputs: Str0
 :For(I,1,1+ln(A)/ln(B
 :Ans+sub("0123456789ABCDEF",1+int(BfPart(AB^-I)),1
 :End
+
+Decmial to Base <=10: (By PT_)
+
+:BfPart(1/Aint(AB^seq(X,X,~7,0

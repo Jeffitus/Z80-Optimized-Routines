@@ -1,0 +1,9 @@
+Insert Element into Index of a List
+By lirtosiat and calc84maniac
+Inputs:
+N= index to insert at
+B= Element to insert
+
+:If N≤dim(L1 //next line would error if N=dim(L1)+1; smaller than piecewise
+:seq(L1(X+(X<N)),X,0,dim(L1→L1
+:B→L1(N

@@ -1,0 +1,17 @@
+Mastermind Game
+By RandomGuest and lirtosiat
+
+:int(10rand(4->L1 
+:For(G,~15,~1
+:Input A
+:int(10fPart(A/10^(5-cumSum(1 or L1->L2
+:sum(L1=Ans
+:Disp {sum(seq(min(sum(L1=N),sum(L2=N)),N,0,9))-Ans,Ans
+:If Ans<4
+:End
+:If not(G
+:Disp L1
+:"LOSE
+:If G
+:"WIN
+:"YOU "+Ans

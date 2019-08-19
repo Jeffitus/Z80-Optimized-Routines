@@ -1,0 +1,23 @@
+Homescreen Vertical Scrolling Engine
+By 123outerme
+Comments are for a monochrome version
+
+:ClrHome
+:"XXXXXXXXXXXXXXXXXXXXXXXXXX"→Str1 ;26 Xs for the top boundary, remove 10
+:For(θ,1,10          ; you could change the third argument to any number (be careful though!), but for the CSE I used 10.
+:Str1+"X                        X"→Str1 ;24 spaces for the inside, remove 10
+:End
+:Str1+"XXXXXXXXXXXXXXXXXXXXXXXXXX"→Str1 ;same deal as the first 26 Xs.
+:53→A:260→B ; Change B to 8*16 or 128. Change A to ((third For( argument + 2) - maximum amount of lines on the homescreen) *26 or 16) + 1. So for this example, ((12-10)*26)+1=53.
+:Output(1,1,sub(Str1,A,B
+:12→V:9→W                       ;change W to 7
+:Repeat K=105:getKey→K
+:If K:Output(W,V," "
+:min(25,max(2,V+sum(DeltaList(K={24,26→V  ;change the number in min( to 15
+:min(9,max(2,W+sum(DeltaList(K={25,34→W  ;change the number in min( to 7
+:Output(W,V,"O"
+:If 2=Wnot(A<3) or 9=Wnot(A>51:Then:A-26(W=2)+26(W=9→A:If not(A:1→A:3(W=2)+8(W=9→W    ;change all "W=9" to W=7 (including "9=Wnot(A>51" and the -26 and +26 to -/+16
+:Output(1,1,sub(Str1,A,B
+:End
+:End
+:DelVar ADelVar BDelVar KDelVar VDelVar WDelVar Str1

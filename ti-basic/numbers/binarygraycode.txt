@@ -1,0 +1,6 @@
+Binary-Reflected Gray Code 
+By Weregoose
+Inputs: Ans = Binary list (e.g., {1,0,1,0,1,0} for 42 = 1010102) 
+Outputs: Ans = Gray code equivalent 
+
+:abs(augment({Ans(1)},ΔList(Ans

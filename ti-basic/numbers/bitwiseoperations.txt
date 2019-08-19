@@ -1,0 +1,36 @@
+Bitwise Operations 
+By Weregoose
+Inputs: 
+C = Gaussian integer (a+bi) 
+L1 = 2^{0,1,2,...,n} (specify number of bits) 
+Outputs: 
+Ans = Decimal integer resulting from the bitwise operation on (a,b) 
+
+OR
+:sum(L1abs(0≠abs(int(2fPart(.5C/L1
+
+AND
+:sum(L1abs(1<abs(int(2fPart(.5C/L1
+
+XOR
+:sum(L1abs(1=abs(int(2fPart(.5C/L1
+
+From what I gather, this deals with unsigned integers only. 
+
+Replace abs( with not( for NOR/NAND/XNOR.
+
+For two integers: (By lirtosiat)
+Inputs: A and B= two integers
+Output: Ans= result of A XOR B (or whichever operation is used)
+
+//xor 
+A+B-2sum(L₁round(min(fPart(AL₂),fPart(BL₂)),0
+
+//and 
+sum(L₁round(min(fPart(AL₂),fPart(BL₂)),0
+
+//or 
+sum(L₁round(max(fPart(AL₂),fPart(BL₂)),0
+
+
+

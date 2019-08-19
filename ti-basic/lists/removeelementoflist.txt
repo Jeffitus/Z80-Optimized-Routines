@@ -1,0 +1,8 @@
+Remove Element of List at Position N
+By Weregoose
+Input: 
+N= index of element to remove
+L1= List to remove from
+Output: L1= list with element removed
+
+:seq(L1(X+(X≥N)),X,1,dim(L1)-1→L1

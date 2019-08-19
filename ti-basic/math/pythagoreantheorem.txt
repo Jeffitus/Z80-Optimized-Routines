@@ -1,0 +1,10 @@
+Pythagorean Theorem
+By RthProg
+Inputs:
+A, B= sides of triagle
+C= hypotenuse
+Set the unknown side to 0
+Output: Ans=Length of unknown side
+
+:C²-B²-A² 
+:√(Ans-2Ansnot(C

@@ -10,3 +10,20 @@ Output: Str1
 :sub(Str1,1,length(Str1)-3->Str1
 
 For CE OS 5.2+ use toString()
+
+Alternative to not destroy graph screen (By Weregoose). Also supports decimal points.
+Input: Ans= number to convert
+Output: Ans= string
+
+:Ans→A
+:abs(Ans→B
+:int(log(Ans+not(Ans→C
+:"+
+:If A<0
+:"-
+:For(D,-1,12
+:If C=D
+:Ans+".
+:Ans+sub("0123456789",1+int(10fPart(B10^(D-C))),1
+:End
+

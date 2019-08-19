@@ -1,0 +1,16 @@
+Numpad key to Number
+By MateoConLechuga
+Input: Numpad keypress
+Output: Number in Ans
+
+With 0:
+
+:Repeat Ans
+:sum(cumSum(getKey={74,73,72,84,83,82,94,93,92,102
+:End:Ans-1
+
+Without 0:
+
+:Repeat Ans
+:sum(cumSum(getKey=seq(74-X+13int(X/3),X,0,8
+:End

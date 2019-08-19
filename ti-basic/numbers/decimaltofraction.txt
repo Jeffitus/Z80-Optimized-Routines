@@ -1,0 +1,14 @@
+Decimal to Fraction Converter 
+By Weregoose
+Inputs: Ans = Real number 
+Outputs: Ans = {Numerator,Denominator} (sign is kept in the denominator) 
+
+:Ans→X
+:abs(Ans→Y
+:Ans→Z
+:While Ans-round(Ans,0
+:1/fPart(Y→Y
+:conj(Zi+real(Zint(Ans→Z
+:real(Ans
+:End
+:round({Ans,Ans/X

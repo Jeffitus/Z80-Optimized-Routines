@@ -1,0 +1,6 @@
+Heron's Formula
+By lirtosiat
+Input: Ans= list of three side lengths
+Output: Ans= area of triangle
+
+:4⁻¹√(sum(Ansprod(sum(Ans)-2Ans

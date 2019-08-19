@@ -1,0 +1,39 @@
+Die Pip Plotter 
+By Weregoose
+Inputs: X = Integer from one through six 
+Outputs: Drawing of corresponding die 
+
+:ClrDraw
+:Line(2,2,2,-2
+:Line(2,-2,-2,-2
+:Line(-2,-2,-2,2
+:Line(-2,2,2,2
+:If fPart(.5X
+:Pt-On(0,0,3
+:For(X,2,X
+:int(.5X-3(X>3
+:Pt-On(1,Ans,3
+:Pt-On(-1,-Ans,3
+:End
+
+Five-Die Plotter 
+By Weregoose
+Inputs: Ans = Five-element list of integers from one through six 
+Outputs: Drawing of corresponding dice, displayed side-by-side 
+
+:ClrDraw
+:For(I,-2,2
+:4.7I→J
+:Ans-2
+:Line(Ans+4,2,Ans+4,-2
+:Line(Ans+4,-2,Ans,-2
+:Line(Ans,-2,Ans,2
+:Line(Ans,2,Ans+4,2
+:If fPart(.5L1(I+3
+:Pt-On(J,0,3
+:For(X,2,L1(I+3
+:int(.5X-3(X>3
+:Pt-On(J+1,Ans,3
+:Pt-On(J-1,-Ans,3
+:End
+:End

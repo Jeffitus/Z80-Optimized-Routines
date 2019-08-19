@@ -1,10 +1,7 @@
 Text to List
-By Lafferjm
-Input: Str1
+By Nik
+Input: Str2
 Output: Text data in L1
 
-:DelVar L1
-:"ABCDEFGHIJKLMNOPQRSTUVWXYZ? .→Str2
-:For(A,1,length(Str1
-:inString(Str2,sub(Str1,A,1→L1(A
-:End
+:Delvar L1"ABCDEFGHIJKLMNOPQRSTUVWXYZ? .->Str1
+:seq(inString(Str1,sub(Str2,A,1)),A,1,length(Str2->L1

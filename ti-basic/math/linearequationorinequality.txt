@@ -1,0 +1,12 @@
+Linear Equation/Inequality Solver 
+By Weregoose
+Inputs: Str1 = First-order, univariate statement involving X and one relational operator 
+Outputs: Reduced statement with X isolated to the LHS 
+
+:">=≥<≠≤→Str2
+:max(seq(inString(Str1,sub(Ans,X,1)),X,1,6
+:expr("solve(("+sub(Str1,1,Ans-1)+")-("+sub(Str1,Ans+1,length(Str1)-Ans)+"),X,0
+:Disp "X"+sub(Str2,sum(seq(expr(Str1),X,Ans-1,Ans+1){4,2,1}),1
+:Ans►Frac
+
+Example: (-X-3)/9≥-5 returns X≤42 – see that the relation will switch sides if necessary.
