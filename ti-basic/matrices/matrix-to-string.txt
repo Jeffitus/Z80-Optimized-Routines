@@ -1,0 +1,13 @@
+Matrix to String
+By burr
+Input: [A]= matrix to be converted
+Output: Str1= matrix converted to a string
+
+:dim([A]→L₁:"?
+:For(A,1,L₁(1
+:For(B,1,L₁(2
+:Ans+sub("ABCDEFGHIJKLMNOPQRSTUVWXYZ",[A](A,B),1
+:End:End
+:sub(Ans,2,length(Ans)-1→Str1
+
+Use toString() for CE OS 5.2+

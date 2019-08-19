@@ -1,0 +1,10 @@
+List to String
+By burr and lirtosiat
+Input: L1= list to be converted
+Output: Str1= list converted to a string
+
+:"?
+:For(A,1,dim(L₁
+:Ans+sub("0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ ",1+L₁(A),1
+:End
+:sub(Ans,2,length(Ans)-1→Str1

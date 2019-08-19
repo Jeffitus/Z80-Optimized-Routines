@@ -1,0 +1,6 @@
+String to List
+By burr and lirtosiat
+Input: Str1= string to be converted
+Output: L1= string converted to list
+
+:1+seq(inString("0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ ",sub(Str1,A,1)),A,1,length(Str1→L₁
