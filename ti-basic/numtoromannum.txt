@@ -1,0 +1,30 @@
+Number to Roman Numeral (1-3999)
+By lirtosiat, PT_, and MateoConLechuga
+Input: N= Number from 1-3999
+Output: String in Ans is N in Roman numeral format
+
+"IXCMVLD 
+While N 
+Ans->Str1 
+10^(int(log(N->E 
+sum(N>=E{4,5,9->D 
+5^(D=2->V 
+N-EVcos(piD->N 
+Str1+sub(Str1,log(E)+V,1 
+End 
+sub(Ans,8,length(Ans)-7
+
+For numbers greater than 3999: (By Ed H)
+(Same input and output, Str0 is same as Ans)
+
+:" →Str0
+:For(X,0,log(N
+:10fPart(.1N→Z
+:While Z
+:sum({4.1,4.1,9.2}(Z={4,5,9→T
+:sub("IVXLCDMvxlcdmni",2X+10fPart(T)+1,1)+Str0→Str0
+:abs(Z-1-int(T→Z
+:End
+:int(.1N→N
+:End
+:Str0

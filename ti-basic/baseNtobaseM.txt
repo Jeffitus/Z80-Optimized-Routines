@@ -1,0 +1,23 @@
+Base-N to Base-M converter 
+By MufinMcFlufin
+Inputs: 
+N = Base to convert from 
+M = Base to convert to 
+Str1 = Number to convert 
+Outputs: 
+Str1 & Ans = Converted number
+
+Code:
+sum(seq(N^A,A,length(Str1)-1,0,~1)seq(inString(sub("123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ",1,N),sub(Str1,A,1)),A,1,length(Str1->B
+Pause B
+seq(0,A,1,int(log(B)/log(M->L1
+While B
+int(log(B)/log(M->C
+int(BM^~Ans->L1(dim(L1)-Ans+1
+B-AnsM^C->B
+End
+" ->Str1
+For(A,1,dim(L1
+Str1+sub("0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ",1+L1(A),1->Str1
+End
+DelVar L1sub(Str1,2,length(Str1)-1->Str1

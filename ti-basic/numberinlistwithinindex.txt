@@ -1,0 +1,9 @@
+Find where a number occurs in a list (Within index) 
+By Ed H
+Inputs: 
+A = A number 
+B = Where it begins looking 
+C = Where it ends looking 
+Output: The position of the last occurrence of A in the portion of L1 starting from element B and ending with element C 
+
+:max(seq(X(A=L1(X)),X,B,C

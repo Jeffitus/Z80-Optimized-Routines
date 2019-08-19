@@ -1,0 +1,10 @@
+Base-N to Decimal Converter 
+By MufinMcFlufin
+Inputs: 
+N = Base to convert from 
+Str1 = Number to convert 
+Outputs: 
+Ans = Converted number 
+
+Code:
+sum(seq(inString(sub("123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ",1,N),sub(Str1,A,1)),A,1,length(Str1))seq(N^A,A,length(Str1)-1,0,~1->B

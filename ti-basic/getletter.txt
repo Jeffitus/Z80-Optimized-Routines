@@ -1,0 +1,8 @@
+Get Letter Routine 
+By _Player1537 and RthProg
+Outputs: Ans = Letter of pressed key (or '?' if not a letter) 
+
+:Repeat Ans
+:getKey
+:End
+:sub("ABC  DEFGHIJKLMNOPQRSTUVWXYZθ   :?",Ans-5iPart(.1Ans+4),1

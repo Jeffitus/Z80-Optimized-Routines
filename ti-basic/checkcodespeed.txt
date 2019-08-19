@@ -1,0 +1,12 @@
+Check Code Speed 
+By _Player1537 and MufinMcFlufin
+Outputs: Ans = Time it took to run once 
+
+:Repeat Ans=2
+:checkTmr(K
+:End
+:For(A,1,Iterations
+:                //YOUR CODE TO TEST HERE
+:End
+:checkTmr(K
+:(Ans-2)/Iterations

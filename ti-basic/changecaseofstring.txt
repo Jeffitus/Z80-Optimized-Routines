@@ -1,0 +1,16 @@
+Change Case of a String 
+By RthProg and Ed H
+Inputs: 
+A = (1) Change to uppercase 
+Str1 = String to convert 
+Outputs: 
+Str1 = Converted string 
+
+:not(A)->A
+:length(Str1)->B
+:"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"->Str2
+:For(N,1,B
+:inString(sub(Str2,26A + 1, 26),sub(Str1,N,1)
+:Str1 + sub(sub(Str1,N,1) +sub(sub(Str2,26,26)+sub(Str2,1,26),26A+1,26),Ans+1,1)-->Str1
+:End
+:sub(Str1,B+1,B)-->Str1

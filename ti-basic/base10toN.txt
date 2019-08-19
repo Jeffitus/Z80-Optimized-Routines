@@ -1,0 +1,11 @@
+Convert Base10 to any base from 2 to 16 
+By RthProg
+Inputs: 
+A = Number to convert 
+B = Base to convert to 
+Outputs: Str0 
+
+:"_
+:For(I,1,1+ln(A)/ln(B
+:Ans+sub("0123456789ABCDEF",1+int(BfPart(AB^-I)),1
+:End

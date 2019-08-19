@@ -1,0 +1,11 @@
+Resistor Value to Color Code 
+By KermMartian
+Inputs: 
+X = Ohm value (such as 5700) 
+Outputs: 
+A,B,C = Color code (5,7,2 = 57*10^2) 
+
+:X/10^(int(log(X->A
+:int(10fPart(A->B
+:int(A->A
+:int(log(.1X->C

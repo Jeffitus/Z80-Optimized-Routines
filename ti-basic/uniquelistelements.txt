@@ -1,0 +1,10 @@
+Find Unique Elements in Two Lists 
+By RthProg
+Input L1 and L2 
+Output L3 (All elements that are in L1 but not L2, and elements that are in L2 but not L1. 
+Conditions: "0" is not a unique element, and no element is repeated within an individual list 
+
+:augment(L1,L2-->L3
+:L3*seq((1=sum(not(L3-L3(X)))),X,1,dim(L3))->L3
+:SortD(L3
+:sum(L3!=0)->dim(L3
