@@ -1,0 +1,16 @@
+Sum of Digits of Integer
+By DarkerLine and lirtosiat
+Input: X= integer
+Output: Ans= sum of digits of X
+
+:sum(int(10fPart(abs(X10^(-cumSum(binomcdf(13,0
+
+If X is always positive, remove the "abs(".
+
+Sum of Digits of Decimal Number (By DarkerLine and lirtosiat)
+
+sum(int(10fPart(abs(X10^(cumSum(binomcdf(13,0))-2-int(log(abs(X+not(X
+
+If X is always positive, remove both "abs(". If nonzero, remove the "+not(X".
+
+

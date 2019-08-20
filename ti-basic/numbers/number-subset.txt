@@ -1,0 +1,10 @@
+Number Subset
+By Weregoose
+Inputs:
+A= number to get subset from
+B= starting postion of subset
+C= length of subset
+Output: Ans= subset of A
+
+:10^(2-B+int(log(A
+:int((A-int(A/Ans)Ans)/Ans10^(C

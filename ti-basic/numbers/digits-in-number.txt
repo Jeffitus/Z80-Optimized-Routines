@@ -1,0 +1,12 @@
+Number of Digits in Nonzero Integer
+By tibasicdev
+Input: X= nonzero integer
+Output: Ans= number of digits in X
+
+:1+int(log(abs(X
+
+If X is always positive, remove the "abs(".
+
+Number of Digits in Decimal Number (By Weregoose and lirtosiat)
+
+:not(X)+sum(0 or fPart(abs(X10^(cumSum(binomcdf(13,0))-2-int(log(abs(X+not(X

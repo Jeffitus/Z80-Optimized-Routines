@@ -1,0 +1,9 @@
+Number or String
+By bfr
+Input: Ans= number or string
+Output: Ans= 1 if input was number, 0 if input was string
+
+:DelVar AFor(B,1,1
+:Ans->A
+:Ans->B
+:A=B

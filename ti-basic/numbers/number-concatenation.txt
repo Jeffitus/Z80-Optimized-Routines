@@ -1,0 +1,6 @@
+Number Concatenation
+By DarkerLine
+Inputs: integers M and N
+Output: Ans= integer of M and N concatenated
+
+:N+M10^(1+int(log(N

@@ -1,0 +1,17 @@
+Different Rounding Methods
+By lirtosiat and Trenly
+Input: X= a number
+Output: Ans= rounded number
+
+:-int(-X                   //rounds towards +∞
+
+:iPart(X+not(not(fPart(X   //rounds away from 0
+
+Natural rounding (round down if decimal <= .4, round up if decimal is >= .5):
+
+:iPart(X+(fPart(X)≥.5
+
+Round towards nearest N or multiple of N:
+
+:X/N->X
+:NiPart(X+(fPart(X)≥.5

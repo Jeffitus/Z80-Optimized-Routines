@@ -1,0 +1,8 @@
+Number or List
+By Zeda
+Input: Ans= number or list
+Ouput: Ans= 1 if input was a number, 0 if it was a list
+
+If Ans is a list, it must contain more than one element, and the second element cannot be twice the first.
+
+:Ans(2)=2Ans(1
